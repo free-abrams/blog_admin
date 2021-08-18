@@ -24,7 +24,7 @@ $api->version('api', [
         'as' => 'api.blog.index',
         'uses' => 'Api\BlogController@index',
     ]);
-    $api->post('/blog/detail', [
+    $api->get('/blog/detail', [
         'as' => 'api.blog.detail',
         'uses' => 'Api\BlogController@detail',
     ]);
